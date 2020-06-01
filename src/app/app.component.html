@@ -8,14 +8,26 @@
 <body>
    <div >
         <h1 style="text-align: center;" >Assignment 14</h1> 
+        <hr>
         <h2 style="text-align: center;"> Custom Pipe for Reverse String</h2>
-        <br>
+
         <h3 style="text-align: center;color:blue;">Input String : {{ name }}</h3>
-        <br>
+   
         <h3 style="text-align: center;color:red;">Reverse String : {{name | reversestring}}</h3>
-      
 
 
+        <hr>
+        <h2 style="text-align: center;"> Custom Pipe for Addition</h2>
+
+        <h3 style="text-align: center;color:darkcyan">Addition equals: {{ n | myadd:3 }}</h3>
+        <h3 style="text-align: center;color:chocolate;">Multiplication equals: {{ n | mymul:3 }}</h3>
+        <hr>
+        <h2 style="text-align: center;"> Custom Pipe for Param Check and Operation</h2>
+        <h3 style="text-align: center;color:indigo">  Input Number : {{ n}}</h3>
+        <h3 style="text-align: center;color:darkslateblue">   {{ n |  paramcheck:'Even' }}</h3>
+        <h3 style="text-align: center;color:darkgreen">  {{ n |  paramcheck:'Odd' }}</h3>
+        <h3 style="text-align: center;color:darkorange">   {{ n |  paramcheck:'Perfect' }}</h3>
+        <hr>
    </div>>
 </body>
 </html>r
